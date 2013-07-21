@@ -1,0 +1,6 @@
+libnet-amqp-perl (0.06~dfsg-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#703651.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 21 Jul 2013 18:15:16 +0200

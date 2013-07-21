@@ -1,0 +1,6 @@
+# Run the "uscan" command to check for upstream updates and more.
+version=3
+opts=dversionmangle=s/\~dfsg.*// \
+http://www.cpan.org/authors/id/C/CH/CHIPS/Net-AMQP-([\d.]+)\.tar\.gz
+opts=dversionmangle=s/\~dfsg.*// \
+http://search.cpan.org/dist/Net-AMQP/ .*/Net-AMQP-([\d.]+)\.tar\.gz

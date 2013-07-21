@@ -1,0 +1,9 @@
+Notes about Net::AMQP for Debian
+================================
+
+
+The module Net::AMQP::Protocol::v0_8 is not included, as it contains
+material embedded in its POD licensed with the non-free AMQP license.
+
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 21 Jul 2013 16:27:01 +0200

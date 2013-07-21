@@ -1,0 +1,69 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Net::AMQP
+Upstream-Contact: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-AMQP
+Source: http://search.cpan.org/dist/Net-AMQP/
+ git://github.com/ewaters/net-amqp
+ .
+ Repackaged, excluding non-DFSG files
+Files-Excluded:
+ spec/*
+ lib/Net/AMQP/Protocol/v0_8.pm
+
+Files: *
+Copyright: 2009, Eric Waters <ewaters@gmail.com>
+ 2009, XMission LLC <http://www.xmission.com/>
+License: Artistic or GPL-1+
+Comment:
+ License:
+ .
+ This program is free software; you can redistribute it and/or modify it
+ under the same terms as Perl itself.
+ .
+ The full text of the license can be found in the LICENSE file included
+ with this module.
+ .
+ Comment:
+ .
+ Referenced 'LICENSE' file contains at the top the folliwing:
+ .
+ Terms of Perl itself
+ .
+ a) the GNU General Public License as published by the Free Software
+ Foundation; either version 1, or (at your option) any later version, or
+ .
+ b) the "Artistic License"
+
+Files: debian/*
+Copyright: 2013, Jonas Smedegaard <dr@jones.dk>
+License: GPL-3+
+
+License: Artistic
+ Comment:
+ .
+ On Debian systems the 'Artistic License' is located in
+ '/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ Comment:
+ .
+ On Debian systems the 'GNU General Public License' version 1 is located
+ in '/usr/share/common-licenses/GPL-1'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation; either version 3, or (at your option) any
+ later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ Comment:
+ .
+ On Debian systems the 'GNU General Public License' version 3 is located
+ in '/usr/share/common-licenses/GPL-3'.
+ .
+ You should have received a copy of the 'GNU General Public License'
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.

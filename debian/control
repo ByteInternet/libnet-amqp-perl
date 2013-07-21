@@ -1,0 +1,34 @@
+Source: libnet-amqp-perl
+Section: perl
+Priority: optional
+Build-Depends: cdbs (>= 0.4.106~),
+ devscripts,
+ perl,
+ debhelper,
+ dh-buildinfo,
+ libclass-accessor-perl,
+ libclass-data-inheritable-perl,
+ libxml-libxml-perl,
+ amqp-specs (>= 1-0r0-2~),
+ libmodule-build-perl (>= 0.400000) | perl (>= 5.17.1),
+ libtest-deep-perl,
+ libparse-recdescent-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Standards-Version: 3.9.4
+Vcs-Git: git://anonscm.debian.org/git/pkg-perl/packages/libnet-amqp-perl
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libnet-amqp-perl.git
+Homepage: http://search.cpan.org/dist/Net-AMQP/
+
+Package: libnet-amqp-perl
+Architecture: all
+Depends: ${cdbs:Depends},
+ ${misc:Depends},
+ ${perl:Depends}
+Recommends: ${cdbs:Recommends}
+Suggests: ${cdbs:Suggests}
+Description: AMQP (de)serialization and representation
+ Net::AMQP implements the frame (de)serialization and representation of
+ the Advanced Message Queue Protocol (http://www.amqp.org/). It is to be
+ used in conjunction with client or server software that does the actual
+ TCP/IP communication.
