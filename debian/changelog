@@ -1,3 +1,8 @@
+libnet-amqp-perl (0.06~dfsg-1byte1) unstable; urgency=low
+
+  * Hack around 32-bit incompatibility
+
+ -- Maarten van Schaik <maarten@byte.nl>  Wed, 29 Jan 2014 16:41:50 +0100
 libnet-amqp-perl (0.06~dfsg-1) unstable; urgency=low
 
   * Initial packaging release.
